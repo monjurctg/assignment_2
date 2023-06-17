@@ -1,5 +1,6 @@
 import React from "react";
 import ClientReview from "./ClientReview";
+import ClientReviewMobile from "./ClientReviewMobile";
 
 function Reviews() {
   return (
@@ -11,131 +12,133 @@ function Reviews() {
         </span>
         4.87 · 171 reviews
       </h4>
-      <div className="row mt-3">
-        <div className="d-flex col-md-6">
-          <div>Cleanliness</div>
-
-          <div className="d-flex align-items-center ms-auto  w-50">
-            <div class="progress" style={{ height: "3px", width: "50%" }}>
-              <div
-                class="progress-bar "
-                role="progressbar"
-                style={{ width: "90%", background: "black" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <span style={{ marginLeft: 10 }}>4.4</span>
-          </div>
-        </div>
-
-        <div className="d-flex col-md-6">
-          <div>Cleanliness</div>
-
-          <div
-            className="d-flex align-items-center ms-auto w-50"
-            style={{ width: "50%" }}
-          >
-            <div class="progress" style={{ height: "3px", width: "50%" }}>
-              <div
-                class="progress-bar "
-                role="progressbar"
-                style={{ width: "90%", background: "black" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <span style={{ marginLeft: 10 }}>4.4</span>
-          </div>
-        </div>
-      </div>
-
-      <div className="row mt-3">
-        <div className="d-flex col-md-6">
-          <div>Cleanliness</div>
-
-          <div className="d-flex align-items-center ms-auto  w-50">
-            <div class="progress" style={{ height: "3px", width: "50%" }}>
-              <div
-                class="progress-bar "
-                role="progressbar"
-                style={{ width: "90%", background: "black" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <span style={{ marginLeft: 10 }}>4.4</span>
-          </div>
-        </div>
-
-        <div className="d-flex col-md-6">
-          <div>Cleanliness</div>
-
-          <div
-            className="d-flex align-items-center ms-auto w-50"
-            style={{ width: "50%" }}
-          >
-            <div class="progress" style={{ height: "3px", width: "50%" }}>
-              <div
-                class="progress-bar "
-                role="progressbar"
-                style={{ width: "90%", background: "black" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <span style={{ marginLeft: 10 }}>4.4</span>
-          </div>
-        </div>
-      </div>
-
-      <div className="row mt-3">
-        <div className="d-flex col-md-6">
-          <div>Cleanliness</div>
-
-          <div className="d-flex align-items-center ms-auto  w-50">
-            <div class="progress" style={{ height: "3px", width: "50%" }}>
-              <div
-                class="progress-bar "
-                role="progressbar"
-                style={{ width: "90%", background: "black" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <span style={{ marginLeft: 10 }}>4.4</span>
-          </div>
-        </div>
-
-        <div className="d-flex col-md-6">
-          <div>Cleanliness</div>
-
-          <div
-            className="d-flex align-items-center ms-auto w-50"
-            style={{ width: "50%" }}
-          >
-            <div class="progress" style={{ height: "3px", width: "50%" }}>
-              <div
-                class="progress-bar "
-                role="progressbar"
-                style={{ width: "90%", background: "black" }}
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <span style={{ marginLeft: 10 }}>4.4</span>
-          </div>
-        </div>
-      </div>
+    
 
     
       
+      <div className="d-none d-md-block">
+      <div className="row mt-3">
+        <div className="d-flex col-md-6">
+          <div>Cleanliness</div>
+
+          <div className="d-flex align-items-center ms-auto  w-50">
+            <div class="progress" style={{ height: "3px", width: "50%" }}>
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style={{ width: "90%", background: "black" }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <span style={{ marginLeft: 10 }}>4.4</span>
+          </div>
+        </div>
+
+        <div className="d-flex col-md-6">
+          <div>Cleanliness</div>
+
+          <div
+            className="d-flex align-items-center ms-auto w-50"
+            style={{ width: "50%" }}
+          >
+            <div class="progress" style={{ height: "3px", width: "50%" }}>
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style={{ width: "90%", background: "black" }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <span style={{ marginLeft: 10 }}>4.4</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="row mt-3">
+        <div className="d-flex col-md-6">
+          <div>Cleanliness</div>
+
+          <div className="d-flex align-items-center ms-auto  w-50">
+            <div class="progress" style={{ height: "3px", width: "50%" }}>
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style={{ width: "90%", background: "black" }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <span style={{ marginLeft: 10 }}>4.4</span>
+          </div>
+        </div>
+
+        <div className="d-flex col-md-6">
+          <div>Cleanliness</div>
+
+          <div
+            className="d-flex align-items-center ms-auto w-50"
+            style={{ width: "50%" }}
+          >
+            <div class="progress" style={{ height: "3px", width: "50%" }}>
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style={{ width: "90%", background: "black" }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <span style={{ marginLeft: 10 }}>4.4</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="row mt-3">
+        <div className="d-flex col-md-6">
+          <div>Cleanliness</div>
+
+          <div className="d-flex align-items-center ms-auto  w-50">
+            <div class="progress" style={{ height: "3px", width: "50%" }}>
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style={{ width: "90%", background: "black" }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <span style={{ marginLeft: 10 }}>4.4</span>
+          </div>
+        </div>
+
+        <div className="d-flex col-md-6">
+          <div>Cleanliness</div>
+
+          <div
+            className="d-flex align-items-center ms-auto w-50"
+            style={{ width: "50%" }}
+          >
+            <div class="progress" style={{ height: "3px", width: "50%" }}>
+              <div
+                class="progress-bar "
+                role="progressbar"
+                style={{ width: "90%", background: "black" }}
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <span style={{ marginLeft: 10 }}>4.4</span>
+          </div>
+        </div>
+      </div>
       <div className="row mt-5">
         <div className="d-flex col-md-6">
           <ClientReview name={"monjur"} title={"May 2023"} discription={"Great location and a wonderful host, couldn't ask for more"}/>
@@ -171,6 +174,11 @@ function Reviews() {
       <button className="place-btn">
         Show all 171 reviews
       </button>
+      </div>
+
+      <div className="d-md-none">
+        <ClientReviewMobile/>
+      </div>
 
     </div>
   );

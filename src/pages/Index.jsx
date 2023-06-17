@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "../components/Header";
-import Banner from "../components/Banner";
+import Banner from "../components/banner/Banner";
 import MeetYourHost from "../components/MeetYourHost";
 import Rooms from "../components/Rooms";
 import Sleep from "../components/Sleep";
 import PlaceOffer from "../components/PlaceOffer";
 import Calendar from "../components/Calender";
-import Reviews from "../components/Reviews";
+import Reviews from "../components/review/Reviews";
 import { useEffect } from "react";
 import { useRef } from "react";
 import { useState } from "react";
@@ -188,6 +188,13 @@ console.log(observer1,observer2)
             </div>
           </div>
           <Reviews />
+          <hr className="mt-5" />
+          <div className="mt-5">
+            <h4>Where you’ll be</h4>
+            <div className="map mt-3">
+              <img className="w-100" src="https://staticmapmaker.com/img/google-placeholder.png" alt="" />
+            </div>
+          </div>
         </div>
       </main>
       <div className="d-md-none ">

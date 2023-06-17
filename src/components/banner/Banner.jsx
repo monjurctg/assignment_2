@@ -1,9 +1,11 @@
 import React from "react";
+import MobileBanner from "./MobileBanner";
 
 function Banner() {
   return (
-    <div className="container-md mt-3">
-     <div className="d-none d-md-block">
+  <div>
+      <div className="container-md mt-3 d-none d-md-block">
+     <div className="">
      <h3>Enjoy historic Valencia and close to the beach.</h3>
       <div className="review-and-share d-flex justify-content-between align-item-center">
         <div className="review">
@@ -49,7 +51,7 @@ function Banner() {
             alt=""
           />
         </div> 
-        <div className="col-md-6 right-images d-none d-md-grid">
+        <div className="col-md-6 right-images ">
           <img
             src="https://a0.muscache.com/im/pictures/miso/Hosting-10989371/original/46c0c87f-d9bc-443c-9b64-24d9e594b54c.jpeg?im_w=960"
             alt=""
@@ -68,7 +70,12 @@ function Banner() {
           />
         </div>
       </div>
+     
     </div>
+    <div className="d-block d-md-none">
+        <MobileBanner/>
+      </div>
+  </div>
   );
 }
 
