@@ -82,13 +82,13 @@ console.log(observer1,observer2)
     // setScrolledComponents(prevCount => prevCount + 1);
   };
 
-  setTimeout(()=>{
-    setLoading(false)
-  },1000)
+  // setTimeout(()=>{
+  //   setLoading(false)
+  // },1000)
 
-  if(loading){
-    return <Loader/>
-  }
+  // if(loading){
+  //   return <Loader/>
+  // }
 
 
 
@@ -121,7 +121,7 @@ console.log(observer1,observer2)
             </ul>
 
             {!isHeader && (
-              <div className="d-flex" style={{ gap: 15 }}>
+              <div className="d-flex" style={{ gap: 15 ,zIndex:999}}>
                 <div className="header-night">
                   <div>
                     <span style={{ fontSize: "15px", fontWeight: "bold" }}>
