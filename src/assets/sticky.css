@@ -1,0 +1,74 @@
+.sticky-card {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 96px;
+  margin-top: 100px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 15px;
+  font-size: 20px;
+  height: 250px;
+  border-radius: 10px;
+  /* border: 1px solid #eeecec; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sticky-card span {
+  font-size: 16px;
+  margin: 2px;
+}
+.header-night{
+    font-size: 16px;
+    margin: 2px;
+}
+
+.check-in-container {
+  /* display: flex; */
+  border: 1px solid rgb(97, 95, 95);
+  /* justify-content: space-between; */
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.checkin {
+  /* border: 1px solid black; */
+  border-bottom: 1px solid rgb(97, 95, 95);
+  justify-self: start;
+  padding: 5px 10px;
+  width: 50%;
+}
+
+.checkin h6 {
+  font-size: 13px;
+}
+.geuest h6 {
+  font-size: 13px;
+}
+.checkin,
+.geuest p {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.geuest {
+  padding: 5px 10px;
+}
+.geuest i {
+  font-size: 13px;
+}
+
+.check-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e00b41;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.check-btn p {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}

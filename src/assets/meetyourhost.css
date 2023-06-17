@@ -1,0 +1,115 @@
+.hostBox{
+    background: #f0efe9;
+    border-radius: 16px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.hostRate{
+    width: 100px ;
+}
+a{
+    text-decoration: none;
+    color: black !important;
+}
+.host{
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    border-radius: 24px;
+    padding: 30px 30px;
+    background: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+.host img{
+    border-radius: 100%;
+    width: 105px;
+    height: 105px;
+    margin-bottom: 10px;
+}
+
+.host h3{
+    font-weight: 700;
+    margin: 0;
+}
+
+.hostData{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    border-bottom: solid 1px #80808047;
+    padding-bottom: 15px; 
+    margin-bottom: 15px;    
+}
+.hostData h6{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;       
+}
+.hostData span{
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;       
+}
+.hostData2{
+    margin: 0 !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.hostImg{
+    width: 220px;
+}
+
+.hsCenter{
+    width: 70%;
+}
+.hostPera{
+    display: flex;
+    gap: 10px;
+}
+.hostPera i{
+    font-size: 25px;
+}
+
+.hostBtn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    background: #000000e8;
+    color: white;
+}
+
+.note{
+    font-size: 12px;
+    display: block;
+}
+
+@media all and (max-width: 992px){
+    .hostBox{
+        width: 100%;
+    }
+}
+@media all and (max-width: 768px){
+    .hsCenter {
+        width: 100%;
+    }
+}
+@media all and (max-width: 576px){
+    .hostBox {
+        padding: 20px;
+    }
+    .host {
+        padding: 25px;
+    }
+}
+@media all and (max-width: 400px){
+    .host img {
+        width: 85px;
+        height: 85px;
+    }
+}

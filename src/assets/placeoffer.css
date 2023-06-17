@@ -1,0 +1,34 @@
+
+
+.place{
+    display: flex;
+    gap: 20px;
+}
+
+.place i{
+    font-size: 26px;
+    
+}
+.place p{
+    font-weight:"400";
+    color: #222222 ;
+}
+
+.place-btn{
+    padding: 10px 25px;
+    margin-top: 20px;
+    border: 1px solid #222222;
+}
+
+/* reviews */
+.client-review{
+    gap: 20px !important;
+}
+.client-review img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #000;
+   
+    
+}
