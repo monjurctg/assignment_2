@@ -12,13 +12,14 @@ import { useRef } from "react";
 import { useState } from "react";
 import Footer from "../components/Footer";
 import StickyCard from "../components/StickyCard";
+import Loader from "../components/loader/Loader";
 
 function Index() {
   const containerRef = useRef(null);
   const [isDivVisible, setIsDivVisible] = useState(false);
-  const [isHeader, setIsheader] = useState(false);
+  const [isHeader, setIsheader] = useState(true);
 
-
+const[loading,setLoading]=useState(true)
 
 
   useEffect(() => {
@@ -80,6 +81,14 @@ console.log(observer1,observer2)
     console.log("hello");
     // setScrolledComponents(prevCount => prevCount + 1);
   };
+
+  setTimeout(()=>{
+    setLoading(false)
+  },1000)
+
+  if(loading){
+    return <Loader/>
+  }
 
 
 
