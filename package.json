@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.6.8",
+    "braintree-web": "^3.101.3",
+    "firebase": "^10.6.0",
     "react": "^18.2.0",
     "react-dater": "^1.6.0",
     "react-dom": "^18.2.0",
